@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Course Organizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Course Organizer</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">My Courses</a></li>
+                <li><a href="add-course.html">Add Course</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section style="max-width: 900px; margin: 40px auto; padding: 20px;">
+            <h2 style="text-align: center; color: #2c3e50; margin-bottom: 30px;">Contact with me</h2>
+            
+            <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+                
+                <div style="flex: 1; min-width: 300px; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                    <h3 style="color: #3498db; margin-bottom: 15px;">Communication <data value=""></data></h3>
+                    <p style="margin-bottom: 12px;"><strong>Name:</strong>Seif-Eldin Mohamed Elmorshedy</p>
+                    <p style="margin-bottom: 12px;"><strong>Faculty:</strong>Computer Science - Helwan University</p>
+                    <p style="margin-bottom: 12px;"><strong>Email :</strong> 
+                        <a href="mailto:seifmohamed10@gmail.com" style="color: #3498db; text-decoration: none;">seifmohamed10@gmail.com</a></p>
+                    <p style="margin-bottom: 12px;"><strong>Phone Number :</strong> <span >01016467793</span></p>
+                    <p><strong>Location:</strong>Elbini - Giza</p>
+                </div>
+
+                <div style="flex: 1; min-width: 300px; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                    <form action="#">
+                        <div class="form-group">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="name..." required>
+                        </div>
+                        <div class="form-group">
+                            <label>Hedding</label>
+                            <input type="text" placeholder="about..." required>
+                        </div>
+                        <div class="form-group">
+                            <label>Text Massege</label>
+                            <textarea rows="4" placeholder="Write here" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+                        </div>
+                        <button type="submit" style="background: #3498db; color: white; border: none; padding: 10px; width: 100%; cursor: pointer; border-radius: 5px; margin-top: 10px;">Send Massege</button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Directed bu Seif-ELdin</p>
+    </footer>
+
+</body>
+</html>
